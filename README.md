@@ -15,9 +15,6 @@ Model, fotoğraftaki her ürünü sınıfıyla ve güven skoruyla birlikte kutul
 | ![Dolapta çoklu ürün tespiti](assets/analiz_ornek_1.jpg) | ![Dolapta tek ürün tespiti](assets/analiz_ornek_2.jpg) |
 | Dolap içindeki 4 adet Fuse Tea Şeftali, farklı açı/kısmi görünürlüklere rağmen ayrı ayrı tespit edilip güven skorlarıyla (0.68–0.99) işaretlenmiş. | Dolap rafındaki tek bir Red Bull, %97 güven skoruyla net şekilde tespit edilmiş. |
 
-![Elde tutulan ürün tespiti](assets/analiz_ornek_3.jpg)
-
-Elde tutulan bir Fuse Tea Limon kutusu, düşük ışık ve yakın çekime rağmen doğru sınıflandırılmış (%53 güven — sınır bölgesindeki bu tür örnekler, modelin daha fazla veriyle güçlendirilmesi gereken alanları gösteriyor).
 
 ## Özellikler
 
