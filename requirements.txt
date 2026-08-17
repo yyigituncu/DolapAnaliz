@@ -1,0 +1,8 @@
+opencv-python>=4.9
+numpy>=1.26
+label-studio>=1.13
+ultralytics>=8.4
+gradio>=4.0
+flask>=3.0
+pillow>=10.0
+imageio-ffmpeg>=0.5

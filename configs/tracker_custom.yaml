@@ -1,0 +1,15 @@
+# Ozel ByteTrack ayarlari (Ultralytics varsayilanindan tureme)
+#
+# track_buffer: bir ID kaybolduktan (kisa sureligine kapandiktan) sonra
+# kac kare boyunca "belki geri gelir" diye beklenecegi. Varsayilan 30
+# (~1 saniye, 30fps'te). Raf tararken urunler elle/digger urunlerle kisa
+# sureli kapanabildigi icin bunu 60'a (~2 saniye) cikardik - boylece
+# urun tekrar gorununce YENI bir ID almak yerine ESKI ID'sine devam eder.
+
+tracker_type: bytetrack
+track_high_thresh: 0.5
+track_low_thresh: 0.1
+new_track_thresh: 0.6
+track_buffer: 60
+match_thresh: 0.8
+fuse_score: true

@@ -1,0 +1,58 @@
+# Dolap Stok Analiz Sistemi - Sınıf Tanımları
+#
+# Bu dosya projenin "tek doğruluk kaynağı" (source of truth) sınıf listesidir.
+# Etiketleme, eğitim ve sayım/uyarı mantığı hep buradan referans alacak.
+#
+# Not: Faz 1 listesi, elde gerçekten bulunan ve videosu çekilen ürünlere göre
+# güncellendi (Kola/Fanta/Sprite planı, malzeme elde olmadığı için Faz 2'ye alındı).
+
+# --- Faz 1 (Şu anki pilot - videosu çekildi) ---
+# ÖNEMLİ: id sırası Label Studio'nun YOLO export'undaki classes.txt/notes.json
+# sırasıyla birebir aynı olmalı (alfabetik sıralamış) - etiket dosyalarındaki
+# sayılar bu sıraya göre. Sırayı değiştirmeyin, yeni sınıf eklerken sona ekleyin.
+active_classes:
+  - id: 0
+    name: fusetea_limon_330ml
+    display_name: "Fuse Tea Limon 330ml"
+  - id: 1
+    name: fusetea_mango_ananas_330ml
+    display_name: "Fuse Tea Mango Ananas 330ml"
+  - id: 2
+    name: fusetea_seftali_330ml
+    display_name: "Fuse Tea Şeftali 330ml"
+  - id: 3
+    name: kutu_kola_250ml
+    display_name: "Kutu Kola 250ml"
+  - id: 4
+    name: redbull_250ml
+    display_name: "Red Bull 250ml"
+
+# --- Faz 2 (ileride eklenecek, şimdilik pasif, veri yok) ---
+# Model modüler tasarlandığı için buraya yeni sınıf eklemek =
+# 1) o sınıf için veri toplamak, 2) etiketlemek, 3) mevcut veri setine katıp
+# modeli yeniden fine-tune etmek. Kod tarafında değişiklik gerektirmez.
+planned_classes:
+  - name: kutu_kola
+    display_name: "Kutu Kola (330ml, çoklu boy)"
+    status: "veri toplanmadi"
+  - name: cam_kola
+    display_name: "Cam Kola"
+    status: "veri toplanmadi"
+  - name: kutu_fanta
+    display_name: "Kutu Fanta"
+    status: "veri toplanmadi"
+  - name: cam_fanta
+    display_name: "Cam Fanta"
+    status: "veri toplanmadi"
+  - name: kutu_sprite
+    display_name: "Kutu Sprite"
+    status: "veri toplanmadi"
+  - name: cam_sprite
+    display_name: "Cam Sprite"
+    status: "veri toplanmadi"
+  - name: kutu_kola_zero
+    display_name: "Kutu Kola Zero"
+    status: "veri toplanmadi"
+  - name: sade_beypazari_soda
+    display_name: "Sade Beypazarı Soda"
+    status: "veri toplanmadi"

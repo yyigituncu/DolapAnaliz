@@ -1,0 +1,14 @@
+# YOLO eğitim veri seti tanımı
+# Not: Colab'da bu dosyanın bir kopyasını, yol (path) satırını Colab'daki
+# klasör konumuna göre güncelleyerek kullanacağız (talimatlarda anlatılıyor).
+
+path: data/dataset_v1
+train: images/train
+val: images/val
+
+names:
+  0: fusetea_limon_330ml
+  1: fusetea_mango_ananas_330ml
+  2: fusetea_seftali_330ml
+  3: kutu_kola_250ml
+  4: redbull_250ml

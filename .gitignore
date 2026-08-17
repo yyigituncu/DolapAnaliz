@@ -1,0 +1,33 @@
+# ===== Veri klasörleri (büyük, repoya dahil edilmez) =====
+data/raw_videos/
+data/frames/
+data/dataset_v1/
+data/dataset_v1.zip
+data/external/
+data/detections/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.Python
+
+# ===== Ultralytics / YOLO çalışma çıktıları =====
+runs/
+
+# ===== Label Studio yerel verisi (varsa) =====
+.label_studio/
+
+# ===== IDE / OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===== Loglar / geçici dosyalar =====
+*.log
+*.tmp
